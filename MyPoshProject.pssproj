@@ -29,8 +29,6 @@
   <ItemGroup>
     <Compile Include="README.md" />
     <Compile Include="Update-MuleLicenses.ps1" />
-    <Compile Include="Update-MuleProdLic.ps1" />
-    <Compile Include="Update-MuleTestLic.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
